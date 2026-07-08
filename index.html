@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NEXORA.COM | Jewelry & Accessories</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <a href="index.html" class="logo-link">
+
+            <img
+                src="ChatGPT Image 7 juil. 2026, 01_26_13.png"
+                alt="Logo NEXORA.COM"
+                class="logo-img"
+            >
+
+        </a>
+
+
+        <nav>
+
+            <a href="index.html">
+                Accueil
+            </a>
+
+            <a href="#products">
+                Produits
+            </a>
+
+            <button
+                class="cart-button"
+                id="open-cart"
+                type="button"
+            >
+
+                Panier
+
+                <span id="cart-count">
+                    0
+                </span>
+
+            </button>
+
+        </nav>
+
+    </header>
+
+
+
+    <main>
+
+        <section class="hero">
+
+            <h2>
+                Style. Élégance. Caractère.
+            </h2>
+
+            <p>
+                Découvrez notre collection de bijoux
+                et accessoires pour femmes et hommes.
+            </p>
+
+            <a href="#products">
+                Découvrir la collection
+            </a>
+
+        </section>
+
+
+
+        <section id="products">
+
+            <h2>Nos Produits</h2>
+
+            <div id="products-container">
+
+                <!-- JavaScript ajoute les produits -->
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <footer>
+
+        <p>
+            &copy; 2026 NEXORA.COM -
+            Tous droits réservés.
+        </p>
+
+    </footer>
+
+
+
+    <!-- OVERLAY -->
+
+    <div
+        id="cart-overlay"
+        class="cart-overlay"
+    ></div>
+
+
+
+    <!-- SIDE CART -->
+
+    <aside
+        id="side-cart"
+        class="side-cart"
+    >
+
+        <div class="side-cart-header">
+
+            <h2>
+                Mon Panier
+            </h2>
+
+            <button
+                id="close-cart"
+                class="close-cart-button"
+                type="button"
+            >
+
+                &times;
+
+            </button>
+
+        </div>
+
+
+
+        <!-- PRODUCTS -->
+
+        <div
+            id="side-cart-products"
+            class="side-cart-products"
+        >
+
+        </div>
+
+
+
+        <!-- BOTTOM -->
+
+        <div class="side-cart-bottom">
+
+            <div class="side-cart-total">
+
+                <span>Sous-total</span>
+
+                <strong>
+                    <span id="side-cart-total">
+                        0
+                    </span>
+
+                    DH
+                </strong>
+
+            </div>
+
+
+            <a
+                href="cart.html"
+                class="view-cart-button"
+            >
+
+                Voir le panier
+
+            </a>
+
+
+            <a
+                href="checkout.html"
+                class="side-checkout-button"
+            >
+
+                Commander
+
+            </a>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- NOTIFICATION -->
+
+    <div
+        id="notification"
+        class="notification"
+    >
+
+        Produit ajouté au panier
+
+    </div>
+
+
+
+    <script src="products.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

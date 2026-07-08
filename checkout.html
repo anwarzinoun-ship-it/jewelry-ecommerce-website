@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Commande | NEXORA.COM</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <a href="index.html" class="logo-link">
+            <img
+                src="ChatGPT Image 7 juil. 2026, 01_26_13.png"
+                alt="Logo NEXORA.COM"
+                class="logo-img"
+            >
+        </a>
+
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="index.html#products">Produits</a>
+            <a href="cart.html">Panier</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="checkout-section">
+
+            <h2>Finaliser ma commande</h2>
+
+            <form id="checkout-form">
+
+                <label for="name">Nom complet</label>
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Votre nom complet"
+                    required
+                >
+
+
+                <label for="phone">Téléphone</label>
+
+                <input
+                    type="tel"
+                    id="phone"
+                    placeholder="Votre numéro de téléphone"
+                    required
+                >
+
+
+                <label for="city">Ville</label>
+
+                <input
+                    type="text"
+                    id="city"
+                    placeholder="Votre ville"
+                    required
+                >
+
+
+                <label for="address">Adresse</label>
+
+                <textarea
+                    id="address"
+                    placeholder="Votre adresse de livraison"
+                    required
+                ></textarea>
+
+
+                <div class="checkout-summary">
+
+                    <h3>
+                        Total :
+                        <span id="checkout-total">0</span> DH
+                    </h3>
+
+                </div>
+
+
+                <button type="submit">
+                    Confirmer la commande
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>&copy; 2026 NEXORA.COM - Tous droits réservés.</p>
+    </footer>
+
+
+    <script src="checkout.js"></script>
+
+</body>
+
+</html>
